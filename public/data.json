@@ -3,6 +3,7 @@
         "id":1,
         "title":"Product1",
         "rating":4.5,
+        "price": "$199.99",
         "image":"https://img.drz.lazcdn.com/static/np/p/a4a1b62901287904f3f7305dc6635e25.jpg_400x400q80.jpg_.webp",
         "description":"2x2 size, made in china"
 
@@ -11,6 +12,7 @@
         "id":2,
         "title":"Product2",
         "rating":4.0,
+        "price":"$299.99",
         "image":"https://img.drz.lazcdn.com/static/np/p/6a3b08660b3a219964bde3a3c5756839.png_400x400q80.png_.webp",
         "description":"2x3 size, made in india"
 
@@ -19,6 +21,7 @@
         "id":3,
         "title":"Product3",
         "rating":4.1,
+        "price":"$399.99",
         "image":"https://img.drz.lazcdn.com/static/np/p/319200b31f5bb5e380944d7603bc59b1.jpg_400x400q80.jpg_.webp",
         "description":"2x4 size, made in nepal"
 
@@ -27,6 +30,7 @@
         "id":4,
         "title":"Product4",
         "rating":4.2,
+        "price":"$499.99",
         "image":"https://img.drz.lazcdn.com/static/np/p/90fb497bcad5efbb69bbfd3a19ca7762.png_400x400q80.png_.webp",
         "description":"2x5 size, made in kuwait"
 
@@ -35,6 +39,7 @@
         "id":5,
         "title":"Product5",
         "rating":4.3,
+        "price":"$599.99",
         "image":"https://img.drz.lazcdn.com/static/np/p/f696342f37b65255a4797ce8f10c7e4d.jpg_400x400q80.jpg_.webp",
         "description":"2x6 size, made in hongkong"
 
@@ -43,6 +48,7 @@
         "id":6,
         "title":"Product6",
         "rating":4.4,
+        "price":"$99.99",
         "image":"https://img.drz.lazcdn.com/static/np/p/a3eaa6d069a7d53ee721a6dcf03bed9a.jpg_200x200q80.jpg_.webp",
         "description":"2x7 size, made in taiwan"
 
@@ -51,6 +57,7 @@
         "id":7,
         "title":"Product7",
         "rating":3.9,
+        "price":"$119.99",
         "image":"https://img.drz.lazcdn.com/static/np/p/3c1c4cd6b5e1e160945bd031fbabf5cc.jpg_200x200q80.jpg_.webp",
         "description":"2x8 size, made in chawos"
 

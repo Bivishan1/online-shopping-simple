@@ -1,9 +1,14 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 export default function Home() {
     const [products, setProducts] = useState([]);
+    const navigate = useNavigate();
+
+    const goToProfile = () => {
+        navigate('./profile');
+    }
 
     useEffect(() => {
         fetch('./data.json')
@@ -17,6 +22,7 @@ export default function Home() {
             <h1 className="text-3xl font-bold text-center mb-6">
                 Online Shopping
             </h1>
+            <button onClick={goToProfile} className="bg-green-600 py-2 px-4 text-white hover:bg-green-600 transition">Go To Profile</button>
             <div className="grid grid-cols:1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                 {products.map((product) =>
                     <div key={product.id} className='border p-4 rounded shadow hover:shadow-lg transition'>
